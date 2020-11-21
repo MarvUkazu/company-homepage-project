@@ -1,0 +1,190 @@
+body {
+  margin: 0 auto;
+  background-color: black;
+}
+
+
+
+#banner img {
+  max-width: 1220px;
+  max-height: 422;
+}
+
+
+/* nav bar */
+
+#navbar {
+  display: grid;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  font-size: 18px;
+  grid-template-columns: 1fr 70px 70px 70px 70px 100px;
+  grid-template-rows: 40px;
+  grid-template-areas: 
+  ". menu pizza burger drinks location .";
+}
+
+/* define the areas here */
+
+#menu {
+  grid-area: menu;
+  align-self: center;
+  justify-self: center;
+}
+
+#pizza {
+  grid-area: pizza;
+  align-self: center;
+  justify-self: center;
+}
+
+#burger {
+  grid-area: burger;
+  align-self: center;
+  justify-self: center;
+}
+
+#drinks {
+  grid-area: drinks;
+  align-self: center;
+  justify-self: center;
+}
+
+#location {
+  grid-area: location;
+  align-self: center;
+  justify-self: center;
+}
+
+/* remove the text decoration and change the colour of the links */
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* banner */
+
+#banner {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 450px;
+  grid-template-areas: 
+  ". banner .";
+}
+
+#banner-img {
+  grid-area: banner;
+  justify-self: center;
+}
+
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+/* categories */
+
+#categories {
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+  grid-template-rows: 450px;
+  grid-template-areas: 
+  ". categ1 categ2 categ3 .";
+  
+}
+
+#categ1 {
+  grid-area: categ1;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+#categ2 {
+  grid-area: categ2;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+
+}
+
+#categ3 {
+  grid-area: categ3;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+
+}
+
+#categories p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+
+span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+}
+
+span a {
+  color: white;
+  font-size: small;
+}
+
+
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  grid-template-areas: 
+  ". email ."
+  ". number .";
+}
+
+
+#email {
+  grid-area: email;
+  align-self: center;
+  justify-self: center;
+}
+
+#number {
+  grid-area: number;
+  align-self: center;
+  justify-self: center;
+}
+
+#locations {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E0AD52;
+  height: 300px;
+  width: 300px;
+  border-radius: 25%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+#locations h1 {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Dosis', sans-serif;
+}
+
+#locations p {
+  font-weight: 300;
+  font-size: 32px;
+  color: black;
+}
