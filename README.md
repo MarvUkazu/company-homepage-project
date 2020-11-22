@@ -1,0 +1,1 @@
+This is a Codecademy Project where I designed and built the layout for a company's homepage
