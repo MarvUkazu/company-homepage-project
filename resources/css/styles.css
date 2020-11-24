@@ -133,7 +133,7 @@ a {
   color: white;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: repeat(3, 485px);
+  grid-template-rows: repeat(3, 400px);
   grid-template-areas:
   ". categ1 ."
   ". categ2 ."
@@ -189,7 +189,7 @@ span {
 #where {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 385px;
+  grid-template-rows: 300px;
   grid-template-areas:
   ". where .";
 }
@@ -207,7 +207,7 @@ span {
   background-color: #E0AD52;
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 400px;
+  grid-template-rows: 300px;
   grid-template-areas:
   ". address .";
   border-radius: 25%
@@ -243,7 +243,7 @@ span {
 #contact-us {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 200px;
+  grid-template-rows: 160px;
   grid-template-areas:
   ". contact .";
 }
