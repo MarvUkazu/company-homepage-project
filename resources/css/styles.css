@@ -1,40 +1,17 @@
 body {
-  margin: 0 auto;
+  margin: 0;
   background-color: black;
-  max-width: 828px;
-}
-
-h1 {
-  font-family: 'Dosis', sans-serif;
-  color: white;
-  text-align: center;
-  width: 150%;
-  font-size: 100px;
-}
-/* navbar */
-
-a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: xx-large;
 }
 
 #navbar {
   background-color: white;
-  /* position: fixed; */
-  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: repeat(3, 60px);
+  position: fixed; 
+  width: 100%;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px;
   grid-template-areas:
-  ". menu ."
-  /* ". pizza ."
-  ". burger ."
-  ". drinks ." */
-  ". location ."
-  ". nav-contact .";
+  ". menu pizza burger drinks location contacts";
 }
 
 #menu {
@@ -68,14 +45,19 @@ a {
 }
 
 #nav-contact {
-  grid-area: nav-contact;
+  grid-area: contacts;
   align-self: center;
   justify-self: center;
 }
 
-.small-screen {
-  display: none;
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
+
 
 
 /* banner */
@@ -83,52 +65,22 @@ a {
 #banner {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 95%;
+  grid-template-rows: 510px;
   grid-template-areas:
   ". banner .";
 }
 
-#banner img {
+#banner-img {
   grid-area: banner;
-  max-width: 300px;
-  max-height: 100px;
   justify-self: center;
-  width: 200%;
-  height: 100px;
 }
 
 
-/* mission */
-
-#mission {
-
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 200px;
-  grid-template-areas:
-  ". mission .";
-}
-
-#mission h1 {
-  grid-area: mission;
-  justify-self: center;
-  align-self: center;
-}
-
-/* options */
-
-#options {
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 300px;
-  grid-template-areas:
-  ". options .";
-}
-
-#options h1 {
-  grid-area: options;
-  justify-self: center;
-  align-self: center;
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 50px;
 }
 
 
@@ -137,18 +89,17 @@ a {
 #categories {
   color: white;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: repeat(3, 400px);
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+  grid-template-rows: 450px;
   grid-template-areas:
-  ". categ1 ."
-  ". categ2 ."
-  ". categ3 .";
+  ". categ1 categ2 categ3 .";
 }
 
 #categ1 {
   grid-area: categ1;
   justify-self: center;
   text-align: center;
+  align-self: center;
 }
 
 
@@ -156,26 +107,16 @@ a {
   grid-area: categ2;
   justify-self: center;
   text-align: center;
+  align-self: center;
 }
 
 #categ3 {
   grid-area: categ3;
   justify-self: center;
   text-align: center;
+  align-self: center;
 }
 
-
-.credit {
-  font-size: small;
-}
-
-span {
-  font-family: 'Open Sans', sans-serif;
-}
-
-#categories a {
-  color: white;
-}
 
 
 #categories p {
@@ -184,86 +125,22 @@ span {
   font-size: 32px;
 }
 
-.title-bottom {
-  display: none;
-}
 
-
-/* location */
-
-#where {
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 300px;
-  grid-template-areas:
-  ". where .";
-}
-
-#where h1 {
-  grid-area: where;
-  justify-self: center;
-  align-self: center;
-}
-
-
-#locations {
-  max-width: 304px;
+span {
   font-family: 'Open Sans', sans-serif;
-  background-color: #E0AD52;
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 300px;
-  grid-template-areas:
-  ". address .";
-  border-radius: 25%
+  font-size: medium;
 }
 
-#address {
-  grid-area: address;
-  justify-self: center;
-}
-
-#locations {
-  margin: 0 auto;
-}
-
-#locations h1 {
-  grid-area: locations;
-  justify-self: center;
-  align-self: center;
-  font-weight: 400;
-  font-size: 30px;
-  font-family: 'Dosis', sans-serif;
-}
-
-#locations p {
-  font-weight: 300;
-  font-size: 25px;
-  color: black;
-}
-
-/* contact */
-
-
-#contact-us {
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 160px;
-  grid-template-areas:
-  ". contact .";
-}
-
-#contact-us h1 {
-  grid-area: contact;
-  justify-self: center;
-  align-self: center;
+span a {
+  color: white;
+  font-size: small;
 }
 
 
 #contact {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 60px 75px;
+  grid-template-rows: 50px 50px;
   color: white;
   font-family: 'Open Sans', sans-serif;
   grid-template-areas:
@@ -282,4 +159,29 @@ span {
   grid-area: number;
   align-self: center;
   justify-self: center;
+}
+
+
+#locations {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E0AD52;
+  height: 300px;
+  width: 300px;
+  border-radius: 25%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+#locations h1 {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Dosis', sans-serif;
+}
+
+#locations p {
+  font-weight: 300;
+  font-size: 32px;
+  color: black;
 }
