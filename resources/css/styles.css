@@ -182,11 +182,7 @@ span a {
 
 
 @media only screen and (max-width: 600px) {
-  body {
-    margin: 0 auto;
-    background-color: black;
-  }
-  
+
 
   #navbar {
     background-color: white;
