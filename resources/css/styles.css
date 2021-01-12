@@ -225,17 +225,8 @@ span a {
   
 #banner {
   display: none;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 650px;
-  grid-template-areas:
-  ". banner .";
 }
 
-  #banner-img {
-    grid-area: banner;
-    width: 140%;
-    justify-self: center;
-  }
 
   #options h1 {
     font-size: 5em;
