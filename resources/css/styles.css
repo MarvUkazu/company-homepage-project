@@ -226,19 +226,8 @@ span a {
   }
 
 
-  #banner {
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: 830px;
-    grid-template-areas:
-    ". banner .";
-  }
-
   #banner-img {
-    grid-area: banner;
     width: 100%;
-    height: 100%;
-    justify-self: center;
   }
 
   #options h1 {
