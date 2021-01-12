@@ -236,7 +236,8 @@ span a {
 
   #banner-img {
     grid-area: banner;
-    width: 500px;
+    width: 100%;
+    height: 100%;
     justify-self: center;
   }
 
