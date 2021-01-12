@@ -184,7 +184,7 @@ span a {
   #navbar {
     background-color: white;
     display: grid;
-    position: fixed;
+    position: static;
     width: 100%;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 150px 150px 150px;
