@@ -224,7 +224,7 @@ span a {
 
   
 #banner {
-  display: grid;
+  display: none;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 650px;
   grid-template-areas:
@@ -232,6 +232,7 @@ span a {
 }
 
   #banner-img {
+    grid-area: banner;
     width: 140%;
     justify-self: center;
   }
