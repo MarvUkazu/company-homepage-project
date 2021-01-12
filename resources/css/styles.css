@@ -249,7 +249,7 @@ span a {
     color: white;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 450px 450px 450px;
+    grid-template-rows: 650px 650px 650px;
     grid-template-areas:
     ". categ1 ."
     ". categ2 ."
