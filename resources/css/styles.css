@@ -279,3 +279,102 @@ span a {
   
 }
 
+
+@media only screen and (max-width: 600px) {
+
+
+  #navbar {
+    background-color: white;
+    display: grid;
+    position: fixed;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 65px 65px 65px;
+    grid-template-areas:
+    ". menu ."
+    /* ". pizza ."
+    ". burger ."
+    ". drinks ." */
+    ". location ."
+    ". contacts .";
+  }
+  #menu {
+    grid-area: menu;
+    align-self: center;
+    justify-self: center;
+  }
+
+  #location {
+    grid-area: location;
+    align-self: center;
+    justify-self: center;
+  }
+
+  #nav-contact {
+    grid-area: contacts;
+    align-self: center;
+    justify-self: center;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  .small-screen {
+    display: none;
+  }
+
+
+  #banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 510px;
+    grid-template-areas:
+    ". banner .";
+  }
+
+  #banner-img {
+    grid-area: banner;
+    width: 500px;
+    justify-self: center;
+  }
+  #categories {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 450px 450px 450px;
+    grid-template-areas:
+    ". categ1 ."
+    ". categ2 ."
+    ". categ3 .";
+    }
+  
+  
+  #categ1 {
+    grid-area: categ1;
+    justify-self: center;
+    text-align: center;
+    align-self: center;
+  }
+  
+  
+  #categ2 {
+    grid-area: categ2;
+    justify-self: center;
+    text-align: center;
+    align-self: center;
+  }
+  
+  #categ3 {
+    grid-area: categ3;
+    justify-self: center;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .title-bottom {
+    display: none;
+  }
+  
+}
+
