@@ -290,6 +290,55 @@ span a {
   #categories p {
     font-size: 65px;
   }
+
+  #where h1 {
+    font-size: 5em;
+  }
+
+  #locations {
+    width: 550px;
+    height: 600px;
+  }
+
+  #locations h1 {
+    font-size: 5em;
+  }
+
+  #locations p {
+    font-size: 4em;
+  }
+  
+  
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80px 90px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  grid-template-areas:
+  ". email ."
+  ". number .";
+}
+
+#email {
+  grid-area: email;
+  align-self: center;
+  justify-self: center;
+}
+
+#number {
+  grid-area: number;
+  align-self: center;
+  justify-self: center;
+}
+
+#contact-us h1 {
+  font-size: 5em;
+}
+
+#contact h4 {
+  font-size: 2.5em;
+}
   
 }
 
