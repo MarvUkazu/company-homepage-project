@@ -239,6 +239,12 @@ span a {
     width: 500px;
     justify-self: center;
   }
+
+  #options h1 {
+    font-size: 5em;
+  }
+
+
   #categories {
     color: white;
     display: grid;
@@ -272,6 +278,13 @@ span a {
     text-align: center;
     align-self: center;
   }
+
+
+  #categories img {
+    width: 100%;
+    height: 100%;
+  }
+
   
   .title-bottom {
     display: none;
