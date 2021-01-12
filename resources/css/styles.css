@@ -313,7 +313,7 @@ span a {
 #contact {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80px 90px;
+  grid-template-rows: 80px 80px;
   color: white;
   font-family: 'Open Sans', sans-serif;
   grid-template-areas:
