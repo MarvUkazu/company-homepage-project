@@ -311,14 +311,21 @@ span a {
   
   
 #contact {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 80px 80px;
   color: white;
   font-family: 'Open Sans', sans-serif;
   grid-template-areas:
   ". email ."
-  ". number .";
+  ". number ."; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact #email{
+  margin-bottom: .2rem;
 }
 
 #email {
