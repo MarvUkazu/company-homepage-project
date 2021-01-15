@@ -338,7 +338,7 @@ span a {
   grid-area: number;
   align-self: center;
   justify-self: center;
-  color: white;
+  /* color: white; */
 }
 
 #contact-us h1 {
